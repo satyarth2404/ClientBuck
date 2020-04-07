@@ -8,13 +8,14 @@
  ![image](https://user-images.githubusercontent.com/34190266/78684957-bfa53600-790e-11ea-88ba-cbaad271bc85.png)
  
 ## Different Components Involved
-*Application Layer* :
+<br><br>
+***Application Layer*** :
 It usually consists of the web browser which sends the request to the front controller (Dispatcher Servlet) which loads the landing      page of the application. 
-<br>
-*The Contoller* :
+<br><br>
+***The Contoller*** :
 Most of the main business logic is found in the Controller which contains the appropriate mappings (GET/POST) for different requests.
 It communicates with the service layer for most of the functionality.
-<br>
-*The Service Layer* :
+<br><br>
+***The Service Layer*** :
 It follows the **Service Facade** design pattern. It is an intermediate layer between the custom controller and the DAO (Data Access Object) Layer. It comes in handy when we need to integrate data from multiple sources repositories.
    
