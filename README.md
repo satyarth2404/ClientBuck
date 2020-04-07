@@ -9,23 +9,23 @@
  
 ## Different Components Involved
 <br>
-***Application Layer*** :
+# Application Layer :
 It usually consists of the web browser which sends the request to the front controller (Dispatcher Servlet) which loads the landing      page of the application. It also contains the view template. It's usually the part through which customer interacts with the app. 
 <br><br>
-***The Contoller*** :
+# The Controller :
 Most of the main business logic is found in the Controller which contains the appropriate mappings (GET/POST) for different requests.
 It communicates with the service layer for most of the functionality.
 <br><br>
-***The Service Layer*** :
+# The Service Layer :
 It follows the **Service Facade** design pattern. It is an intermediate layer between the custom controller and the DAO (Data Access Object) Layer. It comes in handy when we need to integrate data from multiple sources repositories.
 <br><br>
-***The DAO Layer*** :
-It is a common design pattern - **Data Access Object**. This layer is responsible for interfacing with the database and providing all the database related facilities.
+# The DAO Layer :
+It is a common design pattern i.e. **Data Access Object**. This layer is responsible for interfacing with the database and providing all the database related facilities.
 <br>
 
 ## Starter Files for the Application : 
 <br>
-***Front Controller*** *(spring-mvc-crud-demo-servlet.xml):* <br>
+*(spring-mvc-crud-demo-servlet.xml): 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -99,7 +99,7 @@ It is a common design pattern - **Data Access Object**. This layer is responsibl
 </beans>
 ```
 
-*(web.xml)* : <br>
+*(web.xml)* : 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
