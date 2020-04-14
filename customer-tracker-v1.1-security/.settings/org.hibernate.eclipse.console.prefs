@@ -1,0 +1,3 @@
+default.configuration=customer-tracker-v1.1-security
+eclipse.preferences.version=1
+hibernate3.enabled=true
